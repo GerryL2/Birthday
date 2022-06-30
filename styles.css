@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(blue,pink);
+    color: #ffffff;
+}
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    border: 5px solid #efb0c9;
+}
+
+h1, h2, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bday-age {
+    background: #efb0c9;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+}
+
+#bday-date {
+    background: #efb0c9;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift {
+    border: 5px solid white;
+    border-radius: 6px;
+    width: 400px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.happy {
+    margin-bottom: 10px;
+}
+
+.hover {
+    margin-top: 0;
+}
+
+.gift {
+    background-image: url("images/LindaB.jpg");
+    background-size: cover;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.gift:hover {
+    background-image: url("images/Bobby.gif");
+}
+
+#Tina:hover {
+    background-image: url("images/TinaGif.gif");
+}
+
+#Louise:hover {
+    background-image: url("images/LouiseGIF.gif");
+}
+
+#Gene:hover {
+    background-image: url("images/GeneGif.gif");
+}
+
+#family {
+    height: 200px;
+}
+
+#family:hover {
+    background-image: url("images/BelchersDancing.gif");
+    height: 200px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px auto;
+}
+
+a {
+    color: white;
+}
